@@ -1,565 +1,88 @@
-2024-12-28 12:35:18.693739 | Starting the ETL process
-2024-12-28 12:35:18.697800 | CSV data extracted successfully
-2024-12-28 12:35:18.700064 | JSON data extracted successfully
-2024-12-28 12:35:18.701572 | XML data extracted successfully
-2024-12-28 12:35:18.703018 | Data extracted successfully
-2024-12-28 12:35:18.705522 | Data transformation completed successfully
-2024-12-28 12:35:18.705670 | Writing the data to the destination file
-2024-12-28 12:35:18.709152 | Data written to the destination file successfully
-2024-12-28 12:35:18.709321 | ETL process completed, Total Execution time: 0:00:00.015750
-2024-12-28 12:47:11.082981 | Starting ETL process:
-2024-12-28 12:47:11.083248 | Error processing CSV file: name 'log_path' is not defined
-2024-12-28 12:47:11.083565 | Error processing JSON file: name 'log_path' is not defined
-2024-12-28 12:47:11.084096 | Error processing XML file: name 'log_path' is not defined
-2024-12-28 12:47:44.246356 | Starting ETL process:
-2024-12-28 12:47:44.247400 | Error processing CSV file: name 'log_path' is not defined
-2024-12-28 12:47:44.247556 | Error processing JSON file: name 'log_path' is not defined
-2024-12-28 12:47:44.247726 | Error processing XML file: name 'log_path' is not defined
-2024-12-28 12:49:55.064942 | Starting ETL process:
-2024-12-28 12:49:55.065291 | Error processing CSV file: name 'log_message' is not defined
-2024-12-28 12:49:55.065392 | Error processing JSON file: name 'log_message' is not defined
-2024-12-28 12:49:55.065514 | Error processing XML file: name 'log_message' is not defined
-2024-12-28 12:50:49.028144 | Starting ETL process:
-2024-12-28 12:50:49.029061 | Error processing CSV file: name 'log_message' is not defined
-2024-12-28 12:50:49.029167 | Error processing JSON file: name 'log_message' is not defined
-2024-12-28 12:50:49.029287 | Error processing XML file: name 'log_message' is not defined
-2024-12-28 12:52:46.612056 | Starting ETL process:
-2024-12-28 12:52:46.612961 | Reading csv file data
-2024-12-28 12:52:46.625322 |     name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 12:52:46.625471 | Error processing JSON file: name 'log_path' is not defined
-2024-12-28 12:52:46.625573 | Error processing XML file: name 'log_path' is not defined
-2024-12-28 12:53:33.654275 | Starting ETL process:
-2024-12-28 12:53:33.654613 | Reading csv file data
-2024-12-28 12:53:33.666423 |     name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 12:53:33.666582 | Reading JSON file data
-2024-12-28 12:53:33.679213 |     name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 12:53:33.679425 | Reading XML file data
-2024-12-28 12:53:33.696073 |     name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 12:53:33.697499 | Data extracted successfully
-2024-12-28 12:53:33.716575 |      name height  weight
-0    alex  65.78  112.99
-1    ajay  71.52  136.49
-2   alice   69.4  153.03
-3    ravi  68.22  142.34
-4     joe  67.79   144.3
-5    jack   68.7   123.3
-6     tom   69.8  141.49
-7   tracy  70.01  136.46
-8    john   67.9  112.37
-9   simon  67.90  112.37
-10  jacob  66.78  120.67
-11  cindy  66.49  127.45
-12   ivan  67.62  114.14
-2024-12-28 12:54:26.593257 | Starting ETL process:
-2024-12-28 12:54:26.593587 | Reading csv file data
-2024-12-28 12:54:26.605782 |     name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 12:54:26.606092 | Reading JSON file data
-2024-12-28 12:54:26.616436 |     name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 12:54:26.616577 | Reading XML file data
-2024-12-28 12:54:26.632507 |     name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 12:54:26.634043 | Data extracted successfully
-2024-12-28 12:54:26.647606 |      name height  weight
-0    alex  65.78  112.99
-1    ajay  71.52  136.49
-2   alice   69.4  153.03
-3    ravi  68.22  142.34
-4     joe  67.79   144.3
-5    jack   68.7   123.3
-6     tom   69.8  141.49
-7   tracy  70.01  136.46
-8    john   67.9  112.37
-9   simon  67.90  112.37
-10  jacob  66.78  120.67
-11  cindy  66.49  127.45
-12   ivan  67.62  114.14
-2024-12-28 12:54:34.613319 | Starting ETL process:
-2024-12-28 12:54:34.613658 | Reading csv file data
-2024-12-28 12:54:34.626881 |     name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 12:54:34.627018 | Reading JSON file data
-2024-12-28 12:54:34.636429 |     name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 12:54:34.636601 | Reading XML file data
-2024-12-28 12:54:34.653457 |     name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 12:54:34.655722 | Data extracted successfully
-2024-12-28 12:54:34.669210 |      name height  weight
-0    alex  65.78  112.99
-1    ajay  71.52  136.49
-2   alice   69.4  153.03
-3    ravi  68.22  142.34
-4     joe  67.79   144.3
-5    jack   68.7   123.3
-6     tom   69.8  141.49
-7   tracy  70.01  136.46
-8    john   67.9  112.37
-9   simon  67.90  112.37
-10  jacob  66.78  120.67
-11  cindy  66.49  127.45
-12   ivan  67.62  114.14
-2024-12-28 12:57:33.425028 | Starting ETL process:
-2024-12-28 12:57:33.425149 | Reading csv file data
-2024-12-28 12:57:33.440346 |     name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 12:57:33.440507 | Reading JSON file data
-2024-12-28 12:57:33.455409 |     name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 12:57:33.456479 | Reading XML file data
-2024-12-28 12:57:33.471503 |     name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 12:57:33.472853 | Data extracted successfully
-2024-12-28 12:57:33.489440 |      name height  weight
-0    alex  65.78  112.99
-1    ajay  71.52  136.49
-2   alice   69.4  153.03
-3    ravi  68.22  142.34
-4     joe  67.79   144.3
-5    jack   68.7   123.3
-6     tom   69.8  141.49
-7   tracy  70.01  136.46
-8    john   67.9  112.37
-9   simon  67.90  112.37
-10  jacob  66.78  120.67
-11  cindy  66.49  127.45
-12   ivan  67.62  114.14
-2024-12-28 12:57:33.492740 | Transformed DataFrame:
-2024-12-28 12:57:33.512034 |      name  height  weight
-0    alex    1.67   51.25
-1    ajay    1.82   61.91
-2   alice    1.76   69.41
-3    ravi    1.73   64.56
-4     joe    1.72   65.45
-5    jack    1.74   55.93
-6     tom    1.77   64.18
-7   tracy    1.78   61.90
-8    john    1.72   50.97
-9   simon    1.72   50.97
-10  jacob    1.70   54.73
-11  cindy    1.69   57.81
-12   ivan    1.72   51.77
-2024-12-28 12:57:33.512161 | Data Transformation completed successfully
-2024-12-28 12:57:33.512248 | Data Load : Writing the data to the destination file
-2024-12-28 12:57:33.514622 | Data written to the destination file successfully
-2024-12-28 12:57:33.514764 | ETL process completed , Total Execution time : 0:00:00.089750
-2024-12-28 13:15:33.808552 | Starting ETL process:
-2024-12-28 13:15:33.808880 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:15:33.808929 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:15:33.808972 | Log file: log_file.txt
-2024-12-28 13:15:33.809014 | Target file: transformed_data.csv
-2024-12-28 13:15:33.809085 | Reading csv file data
-2024-12-28 13:15:33.824500 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:15:33.824668 | Reading JSON file data
-2024-12-28 13:15:33.841266 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:15:33.841579 | Reading XML file data
-2024-12-28 13:15:33.855207 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:15:33.856210 | Data extracted successfully
-2024-12-28 13:15:33.872920 | 
-     name height  weight
-0    alex  65.78  112.99
-1    ajay  71.52  136.49
-2   alice   69.4  153.03
-3    ravi  68.22  142.34
-4     joe  67.79   144.3
-5    jack   68.7   123.3
-6     tom   69.8  141.49
-7   tracy  70.01  136.46
-8    john   67.9  112.37
-9   simon  67.90  112.37
-10  jacob  66.78  120.67
-11  cindy  66.49  127.45
-12   ivan  67.62  114.14
-2024-12-28 13:15:33.875469 | Transformed DataFrame:
-2024-12-28 13:15:33.897412 |      name  height  weight
-0    alex    1.67   51.25
-1    ajay    1.82   61.91
-2   alice    1.76   69.41
-3    ravi    1.73   64.56
-4     joe    1.72   65.45
-5    jack    1.74   55.93
-6     tom    1.77   64.18
-7   tracy    1.78   61.90
-8    john    1.72   50.97
-9   simon    1.72   50.97
-10  jacob    1.70   54.73
-11  cindy    1.69   57.81
-12   ivan    1.72   51.77
-2024-12-28 13:15:33.897696 | Data Transformation completed successfully
-2024-12-28 13:15:33.897838 | Data Load : Writing the data to the destination file
-2024-12-28 13:15:33.900525 | Data written to the destination file successfully
-2024-12-28 13:15:33.900723 | ETL process completed , Total Execution time : 0:00:00.092153
-2024-12-28 13:16:13.305188 | Starting ETL process:
-2024-12-28 13:16:13.305512 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:16:13.305574 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:16:13.305639 | Log file: log_file.txt
-2024-12-28 13:16:13.305703 | Target file: transformed_data.csv
-2024-12-28 13:16:13.305784 | Reading csv file data
-2024-12-28 13:16:13.314076 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:16:13.314243 | Reading JSON file data
-2024-12-28 13:16:13.323791 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:16:13.323983 | Reading XML file data
-2024-12-28 13:16:13.331206 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:16:13.332371 | Data extracted successfully
-2024-12-28 13:16:13.342576 | 
-     name height  weight
-0    alex  65.78  112.99
-1    ajay  71.52  136.49
-2   alice   69.4  153.03
-3    ravi  68.22  142.34
-4     joe  67.79   144.3
-5    jack   68.7   123.3
-6     tom   69.8  141.49
-7   tracy  70.01  136.46
-8    john   67.9  112.37
-9   simon  67.90  112.37
-10  jacob  66.78  120.67
-11  cindy  66.49  127.45
-12   ivan  67.62  114.14
-2024-12-28 13:16:13.344378 | Transformed DataFrame:
-2024-12-28 13:16:13.363299 |      name  height  weight
-0    alex    1.67   51.25
-1    ajay    1.82   61.91
-2   alice    1.76   69.41
-3    ravi    1.73   64.56
-4     joe    1.72   65.45
-5    jack    1.74   55.93
-6     tom    1.77   64.18
-7   tracy    1.78   61.90
-8    john    1.72   50.97
-9   simon    1.72   50.97
-10  jacob    1.70   54.73
-11  cindy    1.69   57.81
-12   ivan    1.72   51.77
-2024-12-28 13:16:13.363467 | Data Transformation completed successfully
-2024-12-28 13:16:13.363582 | Data Load : Writing the data to the destination file
-2024-12-28 13:16:13.367937 | Data written to the destination file successfully
-2024-12-28 13:16:13.368154 | ETL process completed , Total Execution time : 0:00:00.062949
-2024-12-28 13:17:07.860042 | Starting ETL process:
-2024-12-28 13:17:07.860429 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:17:07.860525 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:17:07.860589 | Log file: log_file.txt
-2024-12-28 13:17:07.860666 | Target file: transformed_data.csv
-2024-12-28 13:17:07.860753 | Reading csv file data
-2024-12-28 13:17:07.870621 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:17:07.870788 | Reading JSON file data
-2024-12-28 13:17:07.875928 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:17:07.876085 | Reading XML file data
-2024-12-28 13:17:07.881978 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:17:07.883599 | Data extracted successfully
-2024-12-28 13:17:07.886787 | Transformed DataFrame:
-2024-12-28 13:17:07.887120 | Data Transformation completed successfully
-2024-12-28 13:17:07.887219 | Data Load : Writing the data to the destination file
-2024-12-28 13:17:07.891806 | Data written to the destination file successfully
-2024-12-28 13:17:07.891967 | ETL process completed , Total Execution time : 0:00:00.031969
-2024-12-28 13:17:34.146104 | Starting ETL process:
-2024-12-28 13:17:34.146496 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:17:34.146546 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:17:34.146589 | Log file: log_file.txt
-2024-12-28 13:17:34.146640 | Target file: transformed_data.csv
-2024-12-28 13:17:34.146726 | Reading csv file data
-2024-12-28 13:17:34.156124 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:17:34.156254 | Reading JSON file data
-2024-12-28 13:17:34.161675 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:17:34.161886 | Reading XML file data
-2024-12-28 13:17:34.169554 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:17:34.170442 | Data extracted successfully
-2024-12-28 13:17:34.173381 | Transformed DataFrame:
-2024-12-28 13:17:34.173605 | Data Transformation completed successfully
-2024-12-28 13:17:34.173714 | Data Load : Writing the data to the destination file
-2024-12-28 13:17:34.177437 | Data written to the destination file successfully
-2024-12-28 13:17:34.177867 | ETL process completed , Total Execution time : 0:00:00.031643
+2024-12-28 14:23:17.608482 | Starting ETL process:
+2024-12-28 14:23:17.608686 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
+2024-12-28 14:23:17.608809 | Source filenames: source1.csv, source1.json, source1.xml
+2024-12-28 14:23:17.608970 | Log file: log_file.txt
+2024-12-28 14:23:17.609081 | Target file: transformed_data.csv
+2024-12-28 14:23:17.609227 | Reading csv file data
+2024-12-28 14:23:17.613247 | CSV file extraction successfully completed
+2024-12-28 14:23:17.613516 | Reading JSON file data
+2024-12-28 14:23:17.614998 | JSON file extraction successfully completed
+2024-12-28 14:23:17.615291 | Reading XML file data
+2024-12-28 14:23:17.616928 | XML file extraction successfully completed
+2024-12-28 14:23:17.619191 | Data extracted successfully
+2024-12-28 14:23:17.624104 | Data Transformation completed successfully
+2024-12-28 14:23:17.624333 | Data Load : Writing the data to the destination file
+2024-12-28 14:23:17.628559 | Data written to the destination file successfully
+2024-12-28 14:23:17.628935 | ETL process completed , Total Execution time : 0:00:00.020612
 
-2024-12-28 13:18:18.629947 | Starting ETL process:
-2024-12-28 13:18:18.630269 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:18:18.630331 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:18:18.630392 | Log file: log_file.txt
-2024-12-28 13:18:18.630452 | Target file: transformed_data.csv
-2024-12-28 13:18:18.630543 | Reading csv file data
-2024-12-28 13:18:18.640343 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:18:18.640741 | Reading JSON file data
-2024-12-28 13:18:18.647304 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:18:18.647551 | Reading XML file data
-2024-12-28 13:18:18.653811 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:18:18.655455 | Data extracted successfully
-2024-12-28 13:18:18.661016 | Transformed DataFrame:
-2024-12-28 13:18:18.661295 | Data Transformation completed successfully
-2024-12-28 13:18:18.661408 | Data Load : Writing the data to the destination file
-2024-12-28 13:18:18.664936 | Data written to the destination file successfully
-2024-12-28 13:18:18.665160 | ETL process completed , Total Execution time : 0:00:00.035177
+2024-12-28 14:23:31.674457 | Starting ETL process:
+2024-12-28 14:23:31.674925 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
+2024-12-28 14:23:31.675046 | Source filenames: source21.csv, source1.json, source1.xml
+2024-12-28 14:23:31.675162 | Log file: log_file.txt
+2024-12-28 14:23:31.675278 | Target file: transformed_data.csv
+2024-12-28 14:23:31.675439 | Reading csv file data
+2024-12-28 14:23:31.676944 | Error reading CSV file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source21.csv'
+2024-12-28 14:23:31.677157 | No data extracted from CSV file
+2024-12-28 14:23:31.677295 | Reading JSON file data
+2024-12-28 14:23:31.678774 | JSON file extraction successfully completed
+2024-12-28 14:23:31.679087 | Reading XML file data
+2024-12-28 14:23:31.680696 | XML file extraction successfully completed
+2024-12-28 14:23:31.682752 | Data extracted successfully
+2024-12-28 14:23:31.685971 | Data Transformation completed successfully
+2024-12-28 14:23:31.686216 | Data Load : Writing the data to the destination file
+2024-12-28 14:23:31.691092 | Data written to the destination file successfully
+2024-12-28 14:23:31.691450 | ETL process completed , Total Execution time : 0:00:00.016981
 
-2024-12-28 13:18:35.846884 | Starting ETL process:
-2024-12-28 13:18:35.847273 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:18:35.847348 | Source filenames: source1.csv, source1.json, source11.xml
-2024-12-28 13:18:35.847404 | Log file: log_file.txt
-2024-12-28 13:18:35.847461 | Target file: transformed_data.csv
-2024-12-28 13:18:35.847545 | Reading csv file data
-2024-12-28 13:18:35.855863 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:18:35.856150 | Reading JSON file data
-2024-12-28 13:18:35.862559 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:18:35.862691 | Reading XML file data
-2024-12-28 13:18:35.862817 | Error reading XML file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source11.xml'
-2024-12-28 13:18:35.862949 | No data extracted from XML file
-2024-12-28 13:18:35.863733 | Data extracted successfully
-2024-12-28 13:18:35.865761 | Transformed DataFrame:
-2024-12-28 13:18:35.865958 | Data Transformation completed successfully
-2024-12-28 13:18:35.866056 | Data Load : Writing the data to the destination file
-2024-12-28 13:18:35.868727 | Data written to the destination file successfully
-2024-12-28 13:18:35.868856 | ETL process completed , Total Execution time : 0:00:00.021980
+2024-12-28 14:23:40.079912 | Starting ETL process:
+2024-12-28 14:23:40.080306 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
+2024-12-28 14:23:40.080422 | Source filenames: source21.csv, source51.json, source1.xml
+2024-12-28 14:23:40.080538 | Log file: log_file.txt
+2024-12-28 14:23:40.080688 | Target file: transformed_data.csv
+2024-12-28 14:23:40.080918 | Reading csv file data
+2024-12-28 14:23:40.082246 | Error reading CSV file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source21.csv'
+2024-12-28 14:23:40.082465 | No data extracted from CSV file
+2024-12-28 14:23:40.082615 | Reading JSON file data
+2024-12-28 14:23:40.082879 | Error reading JSON file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source51.json'
+2024-12-28 14:23:40.083088 | No data extracted from JSON file
+2024-12-28 14:23:40.083459 | Reading XML file data
+2024-12-28 14:23:40.085467 | XML file extraction successfully completed
+2024-12-28 14:23:40.086817 | Data extracted successfully
+2024-12-28 14:23:40.091661 | Data Transformation completed successfully
+2024-12-28 14:23:40.091934 | Data Load : Writing the data to the destination file
+2024-12-28 14:23:40.096716 | Data written to the destination file successfully
+2024-12-28 14:23:40.097074 | ETL process completed , Total Execution time : 0:00:00.017146
 
-2024-12-28 13:18:57.114605 | Starting ETL process:
-2024-12-28 13:18:57.116775 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:18:57.117019 | Source filenames: source1.csv, source21.json, source2.xml
-2024-12-28 13:18:57.117165 | Log file: log_file.txt
-2024-12-28 13:18:57.117322 | Target file: transformed_data.csv
-2024-12-28 13:18:57.117553 | Reading csv file data
-2024-12-28 13:18:57.131100 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:18:57.131299 | Reading JSON file data
-2024-12-28 13:18:57.131450 | Error reading JSON file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source21.json'
-2024-12-28 13:18:57.131560 | No data extracted from JSON file
-2024-12-28 13:18:57.131653 | Reading XML file data
-2024-12-28 13:18:57.139861 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:18:57.140744 | Data extracted successfully
-2024-12-28 13:18:57.142254 | Transformed DataFrame:
-2024-12-28 13:18:57.142368 | Data Transformation completed successfully
-2024-12-28 13:18:57.142451 | Data Load : Writing the data to the destination file
-2024-12-28 13:18:57.144238 | Data written to the destination file successfully
-2024-12-28 13:18:57.144329 | ETL process completed , Total Execution time : 0:00:00.029762
+2024-12-28 14:23:46.498439 | Starting ETL process:
+2024-12-28 14:23:46.498889 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
+2024-12-28 14:23:46.499013 | Source filenames: source21.csv, source51.json, source51.xml
+2024-12-28 14:23:46.499128 | Log file: log_file.txt
+2024-12-28 14:23:46.499243 | Target file: transformed_data.csv
+2024-12-28 14:23:46.499444 | Reading csv file data
+2024-12-28 14:23:46.500845 | Error reading CSV file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source21.csv'
+2024-12-28 14:23:46.501075 | No data extracted from CSV file
+2024-12-28 14:23:46.501224 | Reading JSON file data
+2024-12-28 14:23:46.501388 | Error reading JSON file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source51.json'
+2024-12-28 14:23:46.501555 | No data extracted from JSON file
+2024-12-28 14:23:46.501729 | Reading XML file data
+2024-12-28 14:23:46.502116 | Error reading XML file: [Errno 2] No such file or directory: '/home/krishna/Documents/Guvi Assignments/ETL using python/source51.xml'
+2024-12-28 14:23:46.502315 | No data extracted from XML file
+2024-12-28 14:23:46.502448 | No data extracted from any source
+2024-12-28 14:23:46.502593 | ETL process completed , Total Execution time : 0:00:00.004209
 
-2024-12-28 13:19:15.034842 | Starting ETL process:
-2024-12-28 13:19:15.035144 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:19:15.035188 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:19:15.035232 | Log file: log_file.txt
-2024-12-28 13:19:15.035287 | Target file: transformed_data.csv
-2024-12-28 13:19:15.035369 | Reading csv file data
-2024-12-28 13:19:15.044941 | 
-    name  height  weight
-0   alex   65.78  112.99
-1   ajay   71.52  136.49
-2  alice   69.40  153.03
-3   ravi   68.22  142.34
-4    joe   67.79  144.30
-2024-12-28 13:19:15.045082 | Reading JSON file data
-2024-12-28 13:19:15.051363 | 
-    name  height  weight
-0   jack   68.70  123.30
-1    tom   69.80  141.49
-2  tracy   70.01  136.46
-3   john   67.90  112.37
-2024-12-28 13:19:15.051522 | Reading XML file data
-2024-12-28 13:19:15.055628 | 
-    name height  weight
-0  simon  67.90  112.37
-1  jacob  66.78  120.67
-2  cindy  66.49  127.45
-3   ivan  67.62  114.14
-2024-12-28 13:19:15.056644 | Data extracted successfully
-2024-12-28 13:19:15.060231 | Transformed DataFrame:
-2024-12-28 13:19:15.060390 | Data Transformation completed successfully
-2024-12-28 13:19:15.060612 | Data Load : Writing the data to the destination file
-2024-12-28 13:19:15.065308 | Data written to the destination file successfully
-2024-12-28 13:19:15.065534 | ETL process completed , Total Execution time : 0:00:00.030684
-
-2024-12-28 13:21:52.399688 | Starting ETL process:
-2024-12-28 13:21:52.399791 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:21:52.399862 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:21:52.399921 | Log file: log_file.txt
-2024-12-28 13:21:52.399985 | Target file: transformed_data.csv
-2024-12-28 13:21:52.400060 | Reading csv file data
-2024-12-28 13:21:52.402342 | CSV file extraction successfully completed
-2024-12-28 13:21:52.402492 | Reading JSON file data
-2024-12-28 13:21:52.403287 | JSON file extraction successfully completed
-2024-12-28 13:21:52.403431 | Reading XML file data
-2024-12-28 13:21:52.404266 | XML file extraction successfully completed
-2024-12-28 13:21:52.405104 | Data extracted successfully
-2024-12-28 13:21:52.406727 | Transformed DataFrame:
-2024-12-28 13:21:52.406886 | Data Transformation completed successfully
-2024-12-28 13:21:52.406984 | Data Load : Writing the data to the destination file
-2024-12-28 13:21:52.409488 | Data written to the destination file successfully
-2024-12-28 13:21:52.409630 | ETL process completed , Total Execution time : 0:00:00.009965
-
-2024-12-28 13:23:21.084222 | Starting ETL process:
-2024-12-28 13:23:21.084316 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:23:21.084361 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:23:21.084401 | Log file: log_file.txt
-2024-12-28 13:23:21.084441 | Target file: transformed_data.csv
-2024-12-28 13:23:21.084525 | Reading csv file data
-2024-12-28 13:23:21.086763 | CSV file extraction successfully completed
-2024-12-28 13:23:21.086896 | Reading JSON file data
-2024-12-28 13:23:21.087624 | JSON file extraction successfully completed
-2024-12-28 13:23:21.087734 | Reading XML file data
-2024-12-28 13:23:21.088488 | XML file extraction successfully completed
-2024-12-28 13:23:21.089381 | Data extracted successfully
-2024-12-28 13:23:21.091145 | Data Transformation completed successfully
-2024-12-28 13:23:21.091262 | Data Load : Writing the data to the destination file
-2024-12-28 13:23:21.093503 | Data written to the destination file successfully
-2024-12-28 13:23:21.093636 | ETL process completed , Total Execution time : 0:00:00.009422
-
-2024-12-28 13:31:47.291904 | Starting ETL process:
-2024-12-28 13:31:47.292575 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
-2024-12-28 13:31:47.292727 | Source filenames: source1.csv, source1.json, source1.xml
-2024-12-28 13:31:47.292851 | Log file: log_file.txt
-2024-12-28 13:31:47.293182 | Target file: transformed_data.csv
-2024-12-28 13:31:47.293367 | Reading csv file data
-2024-12-28 13:31:47.300528 | CSV file extraction successfully completed
-2024-12-28 13:31:47.303038 | Reading JSON file data
-2024-12-28 13:31:47.309518 | JSON file extraction successfully completed
-2024-12-28 13:31:47.313753 | Reading XML file data
-2024-12-28 13:31:47.320632 | XML file extraction successfully completed
-2024-12-28 13:31:47.327622 | Data extracted successfully
-2024-12-28 13:31:47.343270 | Data Transformation completed successfully
-2024-12-28 13:31:47.346143 | Data Load : Writing the data to the destination file
-2024-12-28 13:31:47.358163 | Data written to the destination file successfully
-2024-12-28 13:31:47.359493 | ETL process completed , Total Execution time : 0:00:00.067388
+2024-12-28 14:23:57.675633 | Starting ETL process:
+2024-12-28 14:23:57.675985 | Source file path: /home/krishna/Documents/Guvi Assignments/ETL using python/
+2024-12-28 14:23:57.676178 | Source filenames: source1.csv, source1.json, source1.xml
+2024-12-28 14:23:57.676296 | Log file: log_file.txt
+2024-12-28 14:23:57.676434 | Target file: transformed_data.csv
+2024-12-28 14:23:57.676620 | Reading csv file data
+2024-12-28 14:23:57.680807 | CSV file extraction successfully completed
+2024-12-28 14:23:57.681077 | Reading JSON file data
+2024-12-28 14:23:57.682564 | JSON file extraction successfully completed
+2024-12-28 14:23:57.682938 | Reading XML file data
+2024-12-28 14:23:57.684440 | XML file extraction successfully completed
+2024-12-28 14:23:57.686043 | Data extracted successfully
+2024-12-28 14:23:57.689071 | Data Transformation completed successfully
+2024-12-28 14:23:57.689313 | Data Load : Writing the data to the destination file
+2024-12-28 14:23:57.693480 | Data written to the destination file successfully
+2024-12-28 14:23:57.693736 | ETL process completed , Total Execution time : 0:00:00.018109
 
